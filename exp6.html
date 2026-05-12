@@ -1,0 +1,71 @@
+exp 6 -Write a JavaScript program to validate form inputs (e.g., email, empty fields).
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Validation</title>
+</head>
+<body>
+    <script>
+    function data() {
+        var a=document.getElementById("userId").value;
+        var b=document.getElementById("contact").value;
+        var c=document.getElementById("password").value;
+        var d=document.getElementById("confirmPassword").value;
+
+        if(a==""||b==""||c==""||d==""){
+            alert("All fields are required");
+        }
+        else if(b.length<10||b.length>10){
+            alert("Contact number must be 10 digits");
+        }
+        else if(isNaN(b)){
+            alert("Contact number must be a valid number");
+        }
+        else if(c!=d){
+            alert("Passwords do not match");
+        }
+        else {
+            true;
+        }
+    }
+    </script>
+
+    <form onsubmit = "return data()">
+        UserId: <input type="text" id="userId"><br>
+        Contact: <input type="text" id="contact"><br>
+        Password: <input type="password" id="password"><br>
+        Confirm Password: <input type="password" id="confirmPassword"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+Aim-
+To create a web page using JavaScript that validates form input fields such as User ID, Contact number, and Password.
+
+Objective-
+To understand form validation using JavaScript.
+To learn how to access HTML elements using getElementById().
+To apply conditions for checking empty fields, number validation, and password matching.
+To prevent incorrect form submission using validation logic.
+
+Software Requirement-
+Text Editor (Notepad / Visual Studio Code / Sublime Text)
+Web Browser (Google Chrome / Mozilla Firefox / Microsoft Edge)
+
+Theory-
+JavaScript is used to make web pages interactive and dynamic. One important use of JavaScript is form validation, which ensures that users enter correct data before submission.
+
+In this program:
+getElementById() is used to access form input values.
+The if condition checks whether any field is empty.
+The contact number is validated to ensure it has exactly 10 digits.
+isNaN() is used to check whether the input is a valid number.
+Password and Confirm Password fields are compared to ensure they match.
+The function is called using onsubmit event, and form submission is prevented if validation fails.
+
+This improves data accuracy and prevents incorrect input submission.
+
+Conclusion-
+Thus, we successfully implemented form validation using JavaScript. This program helped in understanding how to validate user input and control form submission using client-side scripting.
