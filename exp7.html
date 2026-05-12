@@ -1,0 +1,52 @@
+exp 7 - Create a web page that uses JavaScript to display dynamic content using DOM
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example</title>
+</head>
+
+<body>
+
+    <h1 id="result">Dynamic Content using DOM</h1>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <script>
+
+        function showMessage(){
+            document.getElementById("result").innerHTML ="Welcome! Current Time is: " + new Date().toLocaleTimeString();
+        }
+
+    </script>
+
+</body>
+</html>
+
+
+
+Aim-
+To create a web page using JavaScript DOM manipulation to dynamically update content on a button click.
+
+Objective-
+To understand the concept of DOM (Document Object Model).
+To learn how JavaScript can modify HTML content dynamically.
+To use getElementById() for accessing elements.
+To display real-time data (current time) using JavaScript.
+
+Software Requirement-
+Text Editor (Notepad / Visual Studio Code / Sublime Text)
+Web Browser (Google Chrome / Mozilla Firefox / Microsoft Edge)
+
+Theory-
+The DOM (Document Object Model) is a programming interface that represents HTML documents as a tree structure. JavaScript can interact with the DOM to change content, structure, and style dynamically.
+
+In this program:
+The element with id="result" is accessed using document.getElementById().
+The onclick event is used to trigger a JavaScript function when the button is clicked.
+innerHTML is used to change the content of an HTML element dynamically.
+new Date().toLocaleTimeString() is used to display the current system time.
+
+This demonstrates how web pages can become interactive without reloading.
+
+Conclusion-
+Thus, we successfully implemented DOM manipulation using JavaScript. This program helped in understanding how HTML content can be dynamically changed based on user actions
