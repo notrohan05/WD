@@ -54,3 +54,86 @@ Strings in PHP are sequences of characters, and these functions help in processi
 
 Conclusion-
 Thus, we successfully performed string manipulation operations in PHP. This program helped in understanding how to use built-in string functions for processing text data.
+
+VIVA QUESTIONS:
+
+1. What is the purpose of this program?
+This program performs string manipulation operations in PHP.
+Operations used:
+String length
+String reverse
+Substring extraction
+
+2. What is PHP?
+PHP stands for Hypertext Preprocessor. It is a server-side scripting language.
+
+3. What is a string?
+A string is a sequence of characters enclosed in quotes.
+Example:
+$str = "Computer Engineering";
+
+4. What is the use of variable $str?
+$str stores the string value "Computer Engineering".
+
+5. Why is $ used before variable name in PHP?
+In PHP, all variables start with $.
+Example:
+$str
+
+6. What is the use of echo?
+echo displays output on the webpage.
+
+7. What does strlen() function do?
+strlen() returns the length of a string.
+Example:
+strlen($str)
+
+8. What is the length of "Computer Engineering"?
+The length is 20 characters including the space.
+
+9. What does strrev() function do?
+strrev() reverses the string.
+Example:
+strrev($str)
+
+10. What is the output of reverse string?
+gnireenignE retupmoC
+
+11. What does substr() function do?
+substr() extracts part of a string.
+Example:
+substr($str, 0, 8)
+
+12. What do 0 and 8 mean in substr($str,0,8)?
+0 → Starting position
+8 → Number of characters to extract
+
+13. What is the output of substr($str,0,8)?
+Computer
+
+14. What is string manipulation?
+String manipulation means performing operations on strings like reverse, length, replace, substring, etc.
+
+15. Which operator is used for concatenation in PHP?
+The dot . operator is used.
+Example:
+"Hello " . $name
+
+16. What is the purpose of <br> in echo statements?
+<br> creates a line break in HTML output.
+
+17. Is PHP a compiled or interpreted language?
+PHP is an interpreted language.
+
+18. Which extension is used for PHP files?
+.php
+Example:
+string.php
+
+19. Which software can run PHP programs?
+Examples:
+XAMPP
+WAMP
+
+20. Can PHP be embedded inside HTML?
+Yes, PHP code can be embedded inside HTML pages.
