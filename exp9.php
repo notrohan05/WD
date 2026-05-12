@@ -41,6 +41,16 @@ XAMPP / WAMP Server (for running PHP)
 Text Editor (Notepad / Visual Studio Code / Sublime Text)
 Web Browser (Google Chrome / Mozilla Firefox / Microsoft Edge)
 
+Algorithm:
+1. Install and start a web server (XAMPP/WAMP).
+2. Open a text editor.
+3. Create a new PHP file and save it with .php extension.
+4. Write PHP code to display a welcome message.
+5. Use the date() function to display the current date and time.
+6. Save the file in the server’s htdocs folder.
+7. Open a web browser and run the file using localhost.
+8. Verify the output.
+
 Theory-
 PHP (Hypertext Preprocessor) is a server-side scripting language used to create dynamic web pages.
 
