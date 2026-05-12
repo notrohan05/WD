@@ -65,3 +65,90 @@ This program demonstrates how PHP can generate dynamic content based on server t
 
 Conclusion-
 Thus, we successfully created a PHP program to display a welcome message along with the current date and time. This helped in understanding basic PHP syntax and dynamic content generation.
+
+VIVA QUESTIONS:
+
+1. What is the purpose of this program?
+This program displays a welcome message along with current date and time using PHP.
+
+2. What is PHP?
+PHP stands for Hypertext Preprocessor. It is a server-side scripting language used for web development.
+
+3. Why is PHP called a server-side language?
+Because PHP code executes on the server before the webpage is sent to the browser.
+
+4. Which tags are used to write PHP code?
+PHP code is written inside:
+<?php ?>
+
+5. What is the use of echo in PHP?
+echo is used to display output on the webpage.
+Example:
+echo "Welcome!";
+
+6. What does date_default_timezone_set() do?
+It sets the default timezone for date and time functions.
+Example:
+date_default_timezone_set("Asia/Kolkata");
+
+7. Why is "Asia/Kolkata" used?
+It sets the timezone according to Indian Standard Time (IST).
+
+8. What is the use of date() function?
+The date() function displays the current date or time in a specified format.
+
+9. What does this code display?
+date("l, d F Y")
+It displays:
+Day
+Date
+Month
+Year
+Example:
+Wednesday, 13 May 2026
+
+10. What does this code display?
+date("h:i:s A")
+It displays current time in:
+Hours
+Minutes
+Seconds
+AM/PM format
+
+11. What is the use of <br> in PHP echo statement?
+<br> inserts a line break on the webpage.
+
+12. What is server-side scripting?
+Server-side scripting means code runs on the web server before displaying output in browser.
+
+13. What is the difference between HTML and PHP?
+HTML creates webpage structure.
+PHP performs dynamic server-side operations.
+
+14. Can PHP run without a server?
+No, PHP requires a server like:
+XAMPP
+WAMP
+
+15. What is dynamic content?
+Dynamic content changes automatically based on date, time, user input, database, etc.
+
+16. What will happen if timezone is not set?
+PHP may show incorrect time based on server default timezone.
+
+17. What is the use of <div> tag in this program?
+The <div> tag groups webpage content together.
+
+18. Which function is used for current time?
+The date() function.
+
+19. Which extension is used to save PHP files?
+PHP files are saved using .php extension.
+Example:
+welcome.php
+    
+20. Which software can execute PHP programs?
+Examples:
+XAMPP
+WAMP
+Visual Studio Code
