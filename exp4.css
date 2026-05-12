@@ -1,0 +1,27 @@
+/* exp 4 */
+
+/* Styling for secondary heading */
+h2 {
+    color: darkgreen;
+    margin-top: 20px;
+}
+
+/* Table styling */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
