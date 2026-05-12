@@ -28,6 +28,15 @@ XAMPP / WAMP Server (for running PHP)
 Text Editor (Notepad / Visual Studio Code / Sublime Text)
 Web Browser (Google Chrome / Mozilla Firefox / Microsoft Edge)
 
+Algorithm:
+1. Install and start a web server (XAMPP/WAMP/LAMP).
+2. Open a text editor (VS Code, Sublime Text, etc.).
+3. Create a new PHP file and save it as array_example.php.
+4. Write PHP code to create an array, store values, and display them.
+5. Save the file in the server’s htdocs folder.
+6. Open the file in a web browser using http://localhost/array_example.php.
+7. Verify the output to ensure values are correctly displayed from the array.
+
 Theory-
 An array in PHP is a special variable that can store multiple values in a single variable name.
 
