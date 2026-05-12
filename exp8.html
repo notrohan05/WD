@@ -1,0 +1,93 @@
+exp 8 - Write a JavaScript program for a simple calculator using functions and switch-case.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+
+<h2>Simple Calculator</h2>
+
+Enter First Number: <input type="number" id="num1"><br><br>
+Enter Second Number: <input type="number" id="num2"><br><br>
+
+Select Operation:
+<select id="operation">
+    <option value="add">Addition</option>
+    <option value="sub">Subtraction</option>
+    <option value="mul">Multiplication</option>
+    <option value="div">Division</option>
+</select><br><br>
+
+<button onclick="calculate()">Calculate</button>
+
+<h3 id="result"></h3>
+
+<script>
+function calculate() {
+    let n1 = parseFloat(document.getElementById("num1").value);
+    let n2 = parseFloat(document.getElementById("num2").value);
+    let op = document.getElementById("operation").value;
+    let res;
+
+    switch(op) {
+        case "add":
+            res = n1 + n2;
+            break;
+        case "sub":
+            res = n1 - n2;
+            break;
+        case "mul":
+            res = n1 * n2;
+            break;
+        case "div":
+            if (n2 == 0) {
+                res = "Cannot divide by zero";
+            } else {
+                res = n1 / n2;
+            }
+            break;
+        default:
+            res = "Invalid operation";
+    }
+
+    document.getElementById("result").innerHTML = "Result: " + res;
+}
+</script>
+
+</body>
+</html>
+
+Aim-
+To design a simple calculator web page using JavaScript that performs basic arithmetic operations.
+
+Objective-
+To understand the use of JavaScript functions in web pages.
+To learn how to take user input using HTML form elements.
+To implement arithmetic operations using switch-case.
+To display results dynamically using DOM manipulation.
+
+Software Requirement-
+Text Editor (Notepad / Visual Studio Code / Sublime Text)
+Web Browser (Google Chrome / Mozilla Firefox / Microsoft Edge)
+
+Theory-
+JavaScript is used to make web pages interactive and perform logical operations.
+
+In this program:
+<input type="number"> is used to take numeric input from the user.
+<select> tag is used to choose the arithmetic operation.
+parseFloat() converts string input into numbers for calculation.
+switch-case statement is used to perform different operations:
+Addition
+Subtraction
+Multiplication
+Division
+Division by zero is handled using a condition check.
+innerHTML is used to display the result dynamically on the web page.
+
+This program demonstrates basic event handling and arithmetic logic in JavaScript.
+
+Conclusion-
+Thus, we successfully created a simple calculator using JavaScript. This program helped in understanding input handling, conditional statements, and dynamic output display using DOM manipulation.
