@@ -33,6 +33,15 @@ XAMPP / WAMP Server (for running PHP)
 Text Editor (Notepad / Visual Studio Code / Sublime Text)
 Web Browser (Google Chrome / Mozilla Firefox / Microsoft Edge)
 
+Algorithm:
+1. Install and start a web server (XAMPP/WAMP).
+2. Open a text editor.
+3. Create a new PHP file and save it as string_manipulation.php.
+4. Write PHP code using string functions strrev(), strlen(), and substr().
+5. Save the file in the server’s htdocs folder.
+6. Open the file in a web browser using http://localhost/string_manipulation.php.
+7. Verify the output for the given string.
+
 Theory-
 PHP provides many built-in functions to perform operations on strings.
 
