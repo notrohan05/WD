@@ -34,6 +34,18 @@ XAMPP / WAMP Server (for PHP execution)
 Text Editor (Notepad / Visual Studio Code / Sublime Text)
 Web Browser (Google Chrome / Mozilla Firefox / Microsoft Edge)
 
+Algorithm:
+1. Install and start a web server (XAMPP/WAMP).
+2. Open a text editor.
+3. Create a new PHP file and save it as form_post.php.
+4. Write an HTML form with input fields.
+5. Set the form method to POST.
+6. Write PHP code to display submitted form data using $_POST.
+7. Save the file in the server’s htdocs folder.
+8. Open a browser and run the file using http://localhost/form_post.php.
+9. Fill the form and submit to verify the output.
+
+
 Theory-
 PHP is a server-side scripting language used for processing form data.
 
